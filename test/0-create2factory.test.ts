@@ -1,4 +1,4 @@
-import { Create2Factory } from '../src/Create2Factory'
+import { Create2Factory } from '../scripts/Create2Factory'
 import { ethers } from 'hardhat'
 import { expect } from 'chai'
 import { TestToken__factory } from '../typechain'

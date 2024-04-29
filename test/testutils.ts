@@ -21,7 +21,7 @@ import {
 } from '../typechain'
 import { BytesLike, Hexable } from '@ethersproject/bytes'
 import { expect } from 'chai'
-import { Create2Factory } from '../src/Create2Factory'
+import { Create2Factory } from '../scripts/Create2Factory'
 import { debugTransaction } from './debugTx'
 import { UserOperation } from './UserOperation'
 import { packUserOp, simulateValidation } from './UserOp'

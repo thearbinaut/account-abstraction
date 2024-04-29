@@ -2,7 +2,7 @@ import { parseEther } from 'ethers/lib/utils'
 import { TestPaymasterAcceptAll__factory } from '../typechain'
 import { ethers } from 'hardhat'
 import { GasChecker } from './GasChecker'
-import { Create2Factory } from '../src/Create2Factory'
+import { Create2Factory } from '../scripts/Create2Factory'
 import { hexValue } from '@ethersproject/bytes'
 
 const ethersSigner = ethers.provider.getSigner()

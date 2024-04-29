@@ -18,7 +18,7 @@ import {
   EntryPoint, EntryPointSimulations__factory
 } from '../typechain'
 import { PackedUserOperation, UserOperation } from './UserOperation'
-import { Create2Factory } from '../src/Create2Factory'
+import { Create2Factory } from '../scripts/Create2Factory'
 import { TransactionRequest } from '@ethersproject/abstract-provider'
 
 import EntryPointSimulationsJson from '../artifacts/contracts/core/EntryPointSimulations.sol/EntryPointSimulations.json'

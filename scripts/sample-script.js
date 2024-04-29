@@ -30,3 +30,10 @@ main()
     console.error(error)
     process.exit(1)
   })
+// Deploy a contract
+const Greeter = await hre.ethers.getContractFactory("Greeter");
+const greeter = await Greeter.deploy("Hello, Hardhat!");
+await greeter.deployed();
+
+console.log("Greeter deployed to:", greeter.address);
+```This code snippet suggests continuing the code by deploying a contract named "Greeter" with the greeting message "Hello, Hardhat!".
