@@ -9589,7 +9589,7 @@ web3-core-helpers@1.2.11:
   dependencies:
     underscore "1.9.1"
     web3-eth-iban "1.2.11"
-    web3-utils "1.2.11"
+    -utils "1.2.11"
 
 web3-core-method@1.2.11:
   version "1.2.11"
