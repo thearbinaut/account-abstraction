@@ -1,0 +1,24 @@
+************* Module import web3
+import web3.py:16:0: C0304: Final newline missing (missing-final-newline)
+import web3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+import web3.py:1:0: C0103: Module name "import web3" doesn't conform to snake_case naming style (invalid-name)
+import web3.py:3:5: E0602: Undefined variable 'web3' (undefined-variable)
+import web3.py:3:15: E0602: Undefined variable 'web3' (undefined-variable)
+import web3.py:6:0: C0103: Constant name "address" doesn't conform to UPPER_CASE naming style (invalid-name)
+import web3.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+import web3.py:13:0: E0102: function already defined line 3 (function-redefined)
+import web3.py:14:4: W0621: Redefining name 'w3' from outer scope (line 3) (redefined-outer-name)
+import web3.py:14:9: E0602: Undefined variable 'Web3' (undefined-variable)
+import web3.py:14:14: E0602: Undefined variable 'Web3' (undefined-variable)
+************* Module contracts.interfaces.import requests
+contracts/interfaces/import requests.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+contracts/interfaces/import requests.py:1:0: C0103: Module name "import requests" doesn't conform to snake_case naming style (invalid-name)
+contracts/interfaces/import requests.py:6:11: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+contracts/interfaces/import requests.py:6:41: E0602: Undefined variable 'contract_address' (undefined-variable)
+contracts/interfaces/import requests.py:10:5: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+contracts/interfaces/import requests.py:10:10: E0602: Undefined variable 'output_file' (undefined-variable)
+contracts/interfaces/import requests.py:2:0: C0411: standard import "json" should be placed before third party import "requests" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

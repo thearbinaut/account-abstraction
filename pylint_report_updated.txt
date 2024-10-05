@@ -1,0 +1,12 @@
+************* Module import_web3
+import_web3.py:6:0: E0401: Unable to import 'web3' (import-error)
+import_web3.py:12:0: C0103: Constant name "address" doesn't conform to UPPER_CASE naming style (invalid-name)
+import_web3.py:22:4: W0621: Redefining name 'w3' from outer scope (line 9) (redefined-outer-name)
+************* Module contracts.interfaces.import_requests
+contracts/interfaces/import_requests.py:12:0: C0103: Constant name "contract_address" doesn't conform to UPPER_CASE naming style (invalid-name)
+contracts/interfaces/import_requests.py:13:0: C0103: Constant name "output_file" doesn't conform to UPPER_CASE naming style (invalid-name)
+contracts/interfaces/import_requests.py:7:0: C0411: standard import "json" should be placed before third party import "requests" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 5.00/10
+
